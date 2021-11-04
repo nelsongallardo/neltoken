@@ -1,0 +1,21 @@
+{
+  "name": "neltoken",
+  "version": "1.0.0",
+  "description": "smart contract to issue tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nelson687",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "dotenv": "^10.0.0"
+  }
+}
